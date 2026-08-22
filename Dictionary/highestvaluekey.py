@@ -4,7 +4,7 @@ d = {'a': 5, 'c': 2, 'b': 4, 'd': 8, 'e': 1}
 max_value = -9999
 key = 0
 for k in d:
-    if d[k] > maxv:
+    if d[k] > max_value:
         max_value = d[k]
         key = k
 
