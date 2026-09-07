@@ -15,3 +15,4 @@ for num in nums:
         new.append(num)
 
 print("List after removing duplicates:", new)
+
