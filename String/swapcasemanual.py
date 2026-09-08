@@ -11,6 +11,7 @@ for ch in string:
         result += chr(ord(ch) + 32)
     else:
         result += ch
+        
 print(result)
 
 # strings are immutable in python so we cannot directly modify 'string'
