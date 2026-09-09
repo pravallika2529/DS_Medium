@@ -2,6 +2,7 @@
 
 string = input("Enter a sentence: ")
 new = ""
+
 for i in range(len(string)):
     if i == 0 or string[i - 1] == " ":
         if 'a' <= string[i] <= 'z':
