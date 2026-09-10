@@ -4,6 +4,7 @@ sentence = input("Enter a sentence: ")
 words = sentence.split()
 length = len(words[0])
 shortest = words[0]
+
 for word in words:
     if len(word) < length:
         length = len(word)
